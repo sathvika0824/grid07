@@ -88,7 +88,7 @@ Three bot personas are embedded and stored in ChromaDB. Incoming posts are match
 - 😟 **Bot B (Doomer/Skeptic)** — Critical of AI, billionaires, tech monopolies
 - 💰 **Bot C (Finance Bro)** — Only cares about markets, ROI, trading
 
-![Phase 1 - Similarity Scores](screenshots/2_phase1_similarity.png)
+![Phase 1 - Similarity Scores](screenshots/screenshot2.png)
 
 ---
 
@@ -100,7 +100,11 @@ A 3-node state machine that autonomously creates posts:
 decide_search → web_search → draft_post → END
 ```
 
-![Phase 2 - JSON Output](screenshots/3_phase2_json.png)
+- **Node 1 (decide_search):** LLM reads persona and picks a topic
+- **Node 2 (web_search):** Mock search tool returns relevant news
+- **Node 3 (draft_post):** LLM generates a 280-character post in JSON format
+
+![Phase 2 - JSON Output](screenshots/screenshot3.png)
 
 ---
 
@@ -108,17 +112,20 @@ decide_search → web_search → draft_post → END
 
 The bot reads the **full thread context** and defends against prompt injection attacks by keeping its persona locked and immutable.
 
-![Phase 3 - Prompt Injection Defense](screenshots/4_phase3_defense.png)
+![Phase 3 - Prompt Injection Defense](screenshots/screenshot4.png)
 
 ---
 
 ## 📊 Project Screenshots
 
 ### VS Code — Full Project
-![Project Files](screenshots/1_project_files.png)
+![Project Files](screenshots/screenshot1.png)
 
 ### GitHub Repository
-![GitHub Repo](screenshots/5_github_repo.png)
+![GitHub Repo](screenshots/screenshot5.png)
+
+### GitHub README
+![GitHub README](screenshots/screenshot6.png)
 
 ---
 
