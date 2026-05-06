@@ -88,7 +88,7 @@ Three bot personas are embedded and stored in ChromaDB. Incoming posts are match
 - 😟 **Bot B (Doomer/Skeptic)** — Critical of AI, billionaires, tech monopolies
 - 💰 **Bot C (Finance Bro)** — Only cares about markets, ROI, trading
 
-![Phase 1 - Similarity Scores](screenshots/screenshot2.png)
+![Phase 1 - Similarity Scores](screenshot2.png)
 
 ---
 
