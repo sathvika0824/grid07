@@ -104,7 +104,7 @@ decide_search → web_search → draft_post → END
 - **Node 2 (web_search):** Mock search tool returns relevant news
 - **Node 3 (draft_post):** LLM generates a 280-character post in JSON format
 
-![Phase 2 - JSON Output](screenshots/screenshot3.png)
+![Phase 2 - JSON Output](screenshot3.png)
 
 ---
 
@@ -112,20 +112,20 @@ decide_search → web_search → draft_post → END
 
 The bot reads the **full thread context** and defends against prompt injection attacks by keeping its persona locked and immutable.
 
-![Phase 3 - Prompt Injection Defense](screenshots/screenshot4.png)
+![Phase 3 - Prompt Injection Defense](screenshot4.png)
 
 ---
 
 ## 📊 Project Screenshots
 
 ### VS Code — Full Project
-![Project Files](screenshots/screenshot1.png)
+![Project Files](screenshot1.png)
 
 ### GitHub Repository
-![GitHub Repo](screenshots/screenshot5.png)
+![GitHub Repo](screenshot5.png)
 
 ### GitHub README
-![GitHub README](screenshots/screenshot6.png)
+![GitHub README](screenshot6.png)
 
 ---
 
@@ -138,6 +138,6 @@ The bot reads the **full thread context** and defends against prompt injection a
 
 ## 👩‍💻 Built By
 
-**K. Sathvika** — AI/ML Intern Assignment for Grid07 Platform
+**B.Kameswari Sathvika** — AI/ML Intern Assignment for Grid07 Platform
 
 [![GitHub](https://img.shields.io/badge/GitHub-sathvika0824-black)](https://github.com/sathvika0824)
