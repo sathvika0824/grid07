@@ -138,6 +138,6 @@ The bot reads the **full thread context** and defends against prompt injection a
 
 ## 👩‍💻 Built By
 
-**B.Kameswari Sathvika** — AI/ML Intern Assignment for Grid07 Platform
+**B.Kameswari Sathvika** — AI/ML Intern Assignment for Grid07 Platforms
 
 [![GitHub](https://img.shields.io/badge/GitHub-sathvika0824-black)](https://github.com/sathvika0824)
